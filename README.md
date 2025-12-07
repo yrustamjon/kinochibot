@@ -1,0 +1,2 @@
+# kinochibot
+tegsang olasan
