@@ -3,7 +3,7 @@ from aiogram.types import InlineKeyboardMarkup,InlineKeyboardButton
 main=InlineKeyboardMarkup(
     inline_keyboard=[
         [
-            InlineKeyboardButton(text="🎬 Kinolar",callback_data="movies"),
+            InlineKeyboardButton(text="🎬 Kinolar",callback_data="movie_list"),
             InlineKeyboardButton(text="🔍 Qidiruv",callback_data="search")
         ],
         [

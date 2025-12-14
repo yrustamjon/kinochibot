@@ -14,8 +14,10 @@ async def start(message):
         data=user_s(message)
         a=add_json("data/users/list.json",data)
         print(a)
-        await message.answer(f"salom {message.from_user.first_name+" "+message.from_user.last_name}",
-                            reply_markup=movie_bt(1,'back'))
+        await message.answer(
+            f"salom {message.from_user.first_name} {message.from_user.last_name}",
+            reply_markup=movie_bt(1, 'back')
+        )
     except Exception as e:
         print("ERROR:", e)
         await message.answer(

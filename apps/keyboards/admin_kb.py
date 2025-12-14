@@ -79,8 +79,8 @@ users = InlineKeyboardMarkup(
             InlineKeyboardButton(text='👮 Admin', callback_data='admins')
         ],
         [
-            InlineKeyboardButton(text='🏆 Top Users', callback_data='top_user'),
-            InlineKeyboardButton(text='💎 Premium Users', callback_data='premium_user')
+            InlineKeyboardButton(text='🏆 Top Users', callback_data='top_users'),
+            InlineKeyboardButton(text='💎 Premium Users', callback_data='premium_users')
         ],
         [
             InlineKeyboardButton(text='X', callback_data='x')
@@ -90,6 +90,3 @@ users = InlineKeyboardMarkup(
         ]
     ]
 )
-
-
-
